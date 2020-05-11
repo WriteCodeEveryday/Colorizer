@@ -4,7 +4,7 @@
 
 **Turn your black and white pictures into color pictures**
 
-Colorizer allows you to scan pictures using Brother scanners or MFC devices or directly from your phone's memory and turn them into black and white images.
+Colorizer allows you to scan pictures using Brother scanners or MFC devices or directly from your phone's memory and turn them from black and white images into color images.
 
 Bring new life to old family pictures and restore damaged pictures
 
