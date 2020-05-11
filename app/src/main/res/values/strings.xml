@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Colorizer</string>
+    <string name="okay">Okay</string>
+    <string name="scan_photo">Scan Photo</string>
+    <string name="load_sample">Load Sample</string>
+    <string name="preview_bw">Fixed</string>
+    <string name="preview_color">Colorized</string>
+    <string name="warning">Warning: This application makes use of a third party service provided by 9may.mail.ru (https://9may.mail.ru/restoration/?lang=en) and may be subject to their terms of service and privacy policy.\n\nPlease do not scan pictures you do not want shared with third parties outside of your phone. You may use the \'Load Sample\' button to use a sample image.</string>
+</resources>
