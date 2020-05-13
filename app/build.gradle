@@ -8,8 +8,8 @@ android {
         applicationId "com.challenge.colorizer"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 2
-        versionName "2.0"
+        versionCode 3
+        versionName "3.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -32,6 +32,8 @@ android {
         exclude 'META-INF/ASL2.0'
         exclude 'META-INF/versions/9'
         exclude("META-INF/*.kotlin_module")
+
+        exclude 'lib/x86/libnativescan.so'
     }
 
     useLibrary 'org.apache.http.legacy'
