@@ -12,7 +12,6 @@ import com.brother.sdk.common.IConnector;
 import com.brother.sdk.common.Job;
 import com.brother.sdk.common.device.CountrySpec;
 import com.brother.sdk.common.device.scanner.ScanPaperSource;
-import com.brother.sdk.common.socket.scan.scancommand.ScanCommandContext;
 import com.brother.sdk.network.NetworkControllerManager;
 import com.brother.sdk.network.discovery.mfc.BrotherMFCNetworkConnectorDiscovery;
 import com.brother.sdk.network.wifi.WifiNetworkController;
@@ -86,6 +85,7 @@ public class ScannerManager {
         try {
             ScanParameters mScanParameters = new ScanParameters();
             mScanParameters.paperSource = ScanPaperSource.ADF;
+            mScanParameters.autoDocumentSizeScan = true;
             mScanJob = new ScanJob(mScanParameters, activity,
                     new ScanJobController(activity.getApplicationContext().getFilesDir()) {
                         // The "value" is progress value in scan processing which is between 0 to 100 per page.

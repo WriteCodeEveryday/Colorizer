@@ -1,2 +1,2 @@
 rootProject.name='Colorizer'
-include ':app', ':lib-java-brsdk-common', ':lib-android-brsdk-core', ':lib-android-brsdk-scan'
+include ':app', ':lib-java-brsdk-common', ':lib-android-brsdk-scan', ':lib-android-brsdk-core'
